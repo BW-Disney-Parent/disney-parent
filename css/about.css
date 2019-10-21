@@ -1,0 +1,134 @@
+@keyframes pulse {
+  0% {
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+  }
+  100% {
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+  }
+}
+.featuresTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+.featuresTop1 {
+  padding: 15px;
+  width: 49%;
+}
+.featuresTop1 img {
+  padding-bottom: 10px;
+}
+.featuresTop1 a {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}
+.featuresTop1 a:hover {
+  animation: pulse 1s;
+}
+.featuresTop2 {
+  padding: 15px;
+  width: 49%;
+}
+.featuresTop2 img {
+  padding-bottom: 10px;
+}
+.featuresTop2 a {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}
+.featuresTop2 a:hover {
+  animation: pulse 1s;
+}
+.featuresBottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.featuresBottom1 {
+  padding: 15px;
+  width: 49%;
+}
+.featuresBottom1 img {
+  padding-bottom: 10px;
+}
+.featuresBottom1 a {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}
+.featuresBottom1 a:hover {
+  animation: pulse 1s;
+}
+.featuresBottom2 {
+  padding: 15px;
+  width: 49%;
+}
+.featuresBottom2 img {
+  padding-bottom: 10px;
+}
+.featuresBottom2 a {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}
+.featuresBottom2 a:hover {
+  animation: pulse 1s;
+}
+.end {
+  margin: 30px;
+  padding: 20px 0 10px 0;
+}

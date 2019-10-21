@@ -1,2 +1,1 @@
-# marketingPageLyndsi
-Lyndsi's Marketing Page
+# marketing-page
