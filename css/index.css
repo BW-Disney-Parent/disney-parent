@@ -15,6 +15,19 @@
 .borderTest {
   border: 1px solid black;
 }
+.featuresButton {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  color: #ffffff;
+  background-color: #6fa623;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid #253b56;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -141,13 +154,17 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
 }
+.intro {
+  width: 90%;
+  padding: 4% 4% 0 4%;
+}
 .featuresTop {
   display: flex;
   justify-content: space-between;
   margin: 2%;
 }
 .featuresTop1 {
-  padding: 15px;
+  padding: 2%;
   width: 49%;
 }
 .featuresTop1 img {
@@ -167,7 +184,7 @@ nav a {
   margin: 20px 0 10px 0;
 }
 .featuresTop2 {
-  padding: 15px;
+  padding: 2%;
   width: 49%;
 }
 .featuresTop2 img {
@@ -177,12 +194,12 @@ nav a {
   display: flex;
   justify-content: center;
   width: 38%;
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #6fa623;
   font-size: 16px;
   padding: 10px;
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid #253b56;
   border-radius: 10px;
   margin: 20px 0 10px 0;
 }
@@ -195,7 +212,7 @@ nav a {
   margin: 10px;
 }
 .featuresBottom1 {
-  padding: 15px;
+  padding: 2%;
   width: 49%;
 }
 .featuresBottom1 img {
@@ -205,12 +222,12 @@ nav a {
   display: flex;
   justify-content: center;
   width: 38%;
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #6fa623;
   font-size: 16px;
   padding: 10px;
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid #253b56;
   border-radius: 10px;
   margin: 20px 0 10px 0;
 }
@@ -218,7 +235,7 @@ nav a {
   animation: pulse 1s;
 }
 .featuresBottom2 {
-  padding: 15px;
+  padding: 2%;
   width: 49%;
 }
 .featuresBottom2 img {
@@ -228,12 +245,12 @@ nav a {
   display: flex;
   justify-content: center;
   width: 38%;
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #6fa623;
   font-size: 16px;
   padding: 10px;
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid #253b56;
   border-radius: 10px;
   margin: 20px 0 10px 0;
 }
@@ -241,8 +258,7 @@ nav a {
   animation: pulse 1s;
 }
 .end {
-  margin: 30px;
-  padding: 20px 0 10px 0;
+  margin: 4%;
 }
 footer {
   background-color: white;
