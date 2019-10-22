@@ -105,6 +105,11 @@ nav a {
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+}
 .container {
   width: 98%;
   background-color: white;
@@ -138,6 +143,9 @@ nav a {
 .callToAction .topText h1 {
   font-size: 4rem;
   letter-spacing: 1px;
+}
+.callToAction .mobileTopText {
+  display: none;
 }
 .callToAction .btn {
   text-align: center;
@@ -178,6 +186,20 @@ nav a {
 @media (max-width: 800px) {
   .callToAction .btn {
     transform: translate(-50%, 0%);
+  }
+}
+@media (max-width: 500px) {
+  .callToAction .topText {
+    display: none;
+  }
+  .callToAction .mobileTopText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+  }
+  .callToAction .btn {
+    transform: translate(-50%, 170%);
   }
 }
 h3 {
@@ -278,6 +300,33 @@ h3 {
   }
   .team .member-reverse .teamCont-reverse {
     padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .intro .introBox {
+    width: 100%;
+  }
+  .team .member {
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .team .teamCont {
+    align-items: center;
+  }
+  .team .teamCont p {
+    text-align: center;
+  }
+  .team .member-reverse {
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .team .teamCont-reverse {
+    align-items: center;
+  }
+  .team .teamCont-reverse p {
+    text-align: center;
   }
 }
 footer {
