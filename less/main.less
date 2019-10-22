@@ -65,6 +65,7 @@
     text-align: center;
     font-size: 2.8rem;
     letter-spacing: 3px;
+    padding-top: 2%;
   }
 
   p {
@@ -76,14 +77,32 @@
   }
 }
 
+h4 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 2% 0;
+}
+
 .features {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  // .featureBox {
-
-  // }
+  padding-bottom: 1%;
+  
+  .featureBox {
+    .borderTest;
+      width: 29%;
+      height: 34vh;
+      margin: 0 2% 2% 2%;
+      text-align: center;
+      font-size: 2.4rem;
+      border-radius: 17px;
+      border: 1px solid @inactive-grey;
+      img {
+        border-radius: 15px 15px 0 0;
+      }
+  }
 }
 
 
@@ -92,6 +111,13 @@
   .callToAction {
     .btn {
       transform: translate(-50%, -0%);
+    }
+  }
+  .features {
+    .featureBox {
+      width: 46%;
+      height: 36vh;
+      margin: 2% 0;
     }
   }
 }
@@ -105,10 +131,22 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 20vh;
+      height: 22vh;
+      margin-bottom: 2%;
     }
     .btn {
       transform: translate(-50%, 170%);
+    }
+  }
+  h4 {
+    padding-bottom: 0;
+  }
+  .features {
+    padding-bottom: 3%;
+    .featureBox {
+      width: 90%;
+      height: 43vh;
+      margin: 3% 0;
     }
   }
 }
