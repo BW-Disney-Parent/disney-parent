@@ -169,6 +169,7 @@ nav a {
   text-align: center;
   font-size: 2.8rem;
   letter-spacing: 3px;
+  padding-top: 2%;
 }
 .about p {
   color: #253b56;
@@ -177,15 +178,39 @@ nav a {
   text-align: center;
   padding: 2%;
 }
+h4 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 2% 0;
+}
 .features {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 1%;
+}
+.features .featureBox {
+  border: 1px solid black;
+  width: 29%;
+  height: 34vh;
+  margin: 0 2% 2% 2%;
+  text-align: center;
+  font-size: 2.4rem;
+  border-radius: 17px;
+  border: 1px solid #a1afc0;
+}
+.features .featureBox img {
+  border-radius: 15px 15px 0 0;
 }
 @media (max-width: 800px) {
   .callToAction .btn {
     transform: translate(-50%, 0%);
+  }
+  .features .featureBox {
+    width: 46%;
+    height: 36vh;
+    margin: 2% 0;
   }
 }
 @media (max-width: 500px) {
@@ -196,10 +221,22 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 22vh;
+    margin-bottom: 2%;
   }
   .callToAction .btn {
     transform: translate(-50%, 170%);
+  }
+  h4 {
+    padding-bottom: 0;
+  }
+  .features {
+    padding-bottom: 3%;
+  }
+  .features .featureBox {
+    width: 90%;
+    height: 43vh;
+    margin: 3% 0;
   }
 }
 h3 {
