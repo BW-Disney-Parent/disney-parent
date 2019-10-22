@@ -18,7 +18,7 @@
 .featuresButton {
   display: flex;
   justify-content: center;
-  width: 38%;
+  width: 20%;
   color: #ffffff;
   background-color: #6fa623;
   font-size: 1.6rem;
@@ -61,7 +61,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  max-width: 940px;
+  max-width: 98%;
   margin: 0 auto;
   border-radius: 0 0 12px 12px;
 }
@@ -78,12 +78,12 @@ header .headCont img {
 }
 header .headCont h1 {
   color: #0470ab;
-  margin-right: 6%;
+  width: 55%;
   font-size: 4rem;
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 50%;
   margin-right: 2%;
@@ -97,7 +97,7 @@ nav a {
 }
 @media (max-width: 800px) {
   header .headCont h1 {
-    margin-left: 18%;
+    margin-left: 15%;
     font-size: 2.5rem;
     line-height: 1.5;
   }
@@ -106,7 +106,7 @@ nav a {
   }
 }
 .container {
-  width: 940px;
+  width: 98%;
   background-color: white;
   margin: 20px auto 0;
   border-radius: 12px;
@@ -175,6 +175,11 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
 }
+@media (max-width: 800px) {
+  .callToAction .btn {
+    transform: translate(-50%, 0%);
+  }
+}
 h3 {
   font-size: 2rem;
   text-align: center;
@@ -194,6 +199,7 @@ h3 {
 .team .member {
   display: flex;
   border-top: 1px dotted #d0dde7;
+  padding: 0 2%;
 }
 .team .member img {
   height: 30vh;
@@ -204,7 +210,7 @@ h3 {
 .team .member a {
   display: flex;
   justify-content: center;
-  width: 38%;
+  width: 20%;
   color: #ffffff;
   background-color: #6fa623;
   font-size: 1.6rem;
@@ -220,6 +226,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  padding: 0 10%;
   margin: 2%;
 }
 .team .teamCont p {
@@ -229,6 +236,7 @@ h3 {
   display: flex;
   flex-direction: row-reverse;
   border-top: 1px dotted #d0dde7;
+  padding: 0 2%;
 }
 .team .member-reverse img {
   height: 30vh;
@@ -239,7 +247,7 @@ h3 {
 .team .member-reverse a {
   display: flex;
   justify-content: center;
-  width: 38%;
+  width: 20%;
   color: #ffffff;
   background-color: #6fa623;
   font-size: 1.6rem;
@@ -255,11 +263,29 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 0 10%;
   margin: 2%;
+}
+@media (max-width: 800px) {
+  .team .member a {
+    width: 35%;
+  }
+  .team .member .teamCont {
+    padding: 0;
+  }
+  .team .member-reverse a {
+    width: 35%;
+  }
+  .team .member-reverse .teamCont-reverse {
+    padding: 0;
+  }
 }
 footer {
   background-color: white;
-  max-width: 940px;
+  max-width: 98%;
   margin: 20px auto 0;
   border-radius: 12px 12px 0 0;
+}
+footer nav {
+  width: 100%;
 }
