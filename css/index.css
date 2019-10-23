@@ -109,6 +109,9 @@ nav a {
   header {
     flex-direction: column;
   }
+  header .headCont img {
+    border-radius: 0 0 12px 12px;
+  }
 }
 .container {
   width: 98%;
