@@ -142,6 +142,9 @@ nav a {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(37, 59, 86, 0.6);
+  padding: 2%;
+  border-radius: 20px;
 }
 .callToAction .topText h1 {
   font-size: 4rem;
